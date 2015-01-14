@@ -4,7 +4,7 @@
 
 - name: install package
   sudo: true
-  yum: name=newrelic-sysmond
+  yum: pkg=newrelic-sysmond state=installed
   notify: restart newrelic-sysmond
 
 - name: generate config
