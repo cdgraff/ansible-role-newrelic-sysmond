@@ -1,15 +1,15 @@
 ---
 galaxy_info:
-  author: George Miroshnykov
-  description: Provision NewRelic System Monitor
-  company: Rebbix
+  author: Alejandro Ferrari
+  description: Provision NewRelic System Monitor for EL OS Family (Centos/AmazonLinux/etc)
+  company: wmconsulting.info
   license: BSD
   min_ansible_version: 1.4
 
   platforms:
-  - name: Ubuntu
+  - name: Centos
     versions:
-    - precise
+    - 6
 
   categories:
   - monitoring
